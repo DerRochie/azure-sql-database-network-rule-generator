@@ -1,5 +1,5 @@
-# SDB-Network-Rule-Generator
-Generates Terraform compatable Azure SDB network rules from Microsoft provided ServiceTag CIDR addresses provided here - https://www.microsoft.com/en-us/download/confirmation.aspx?id=56519
+# Azure-SQL-Database-Network-Rule-Generator
+Generates Terraform compatable SQL Database network rules from Microsoft provided ServiceTag CIDR addresses provided here - https://www.microsoft.com/en-us/download/confirmation.aspx?id=56519
 
 ## prerequisites
 Python 3 (I tested with 3.11.1 and it worked)
