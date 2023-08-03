@@ -20,11 +20,11 @@ class Program:
 
 
     def return_tfvars_format(self, variable_name, start_address, end_address, cdir_address):
-        template = '''  "{variable_name}" = {{
+        template = '''      "{variable_name}" = {{
         # {cdir_address}
         startIpAddress = "{start_address}"
         endIpAddress   = "{end_address}"
-  }}
+      }}
     '''.format(variable_name=variable_name, cdir_address=cdir_address, start_address=start_address, end_address=end_address)
         return template
 
